@@ -1,0 +1,195 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    color: #777777;
+    background-image: url("../images/ripples.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.header-one {
+    background: #ffffff;
+    color: white;
+    border-bottom: 2px solid #cccccc;
+    width: 100%;
+}
+
+.header-one::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header-two {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1,h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.name {
+    background: #4aaaa5;
+    float: left;
+    padding: 20px;
+    margin: 0;
+}
+
+.nav {
+    float: right;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: right;
+}
+
+.nav a {
+    font-size: 20px;
+    color: #777777;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.nav a:hover {
+    color: #4aaaa4;
+}
+
+.wrapper {
+    width: 960px;
+    line-height: 1.5em;
+    min-height: 100%;
+    margin: 0 auto -50px;
+}
+
+.wrapper-content {
+    margin: 0 auto;
+    border: 2px solid #dddddd;
+    padding: 02%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: #ffffff;
+    overflow: auto;
+}
+
+.wrapper-header {
+    color: #4aaaa5;
+}
+
+hr {
+    background: #cccccc;
+    color: #cccccc;
+    border: 2px solid;
+}
+
+.content::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.footer-container, 
+.push {
+    height: 50px;
+} 
+
+.footer-container {
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.footer-subcontainer {
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    width:100%;
+    background: #666666;
+    height: 50px;
+    padding-bottom: 10;
+    border-top: 8px solid #4aaaa5;
+}
+
+.profile-image {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    width: 200px;
+    height: 200px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap: 5px;
+}
+
+.thumbnail {
+    position: relative;
+    height: 250px;
+    width: 300px;
+    border: solid #dddddd 3px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+
+.thumbnail-banner {
+    position: absolute;
+    background: #4aaaa5;
+    color: white;
+    height: 50px;
+    width: 100%;
+    bottom: 3px;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.thumbnail-image {
+    max-width: 300px; 
+    max-height: 100%;
+    margin:auto;
+    display:block;
+}
+
+label {
+    font-size: 20px;
+}
+
+input[type="text"],input[type="email"],textarea {
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    outline: none;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid #dddddd;
+}
+
+input[type="submit"] {
+    background: #4aaaa5;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    width: 130px;
+}
+
+input[type="submit"]:hover {
+    background: #2f7e7a;
+    cursor: pointer;
+    color: white;
+}
+
+input[type=text]:focus,input[type="email"]:focus,textarea:focus {
+    box-shadow: 0 0 5px #4aaaa5;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid #4aaaa5;
+  }
+
